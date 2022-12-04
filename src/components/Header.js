@@ -3,11 +3,11 @@ import Navigation from './Navigation';
 
 const myName = 'Sripriya Bhikshesvaran';
 
-export default function Header() {
+export default function Header({content, handleContentChange}) {
   return (
     <header>
       {myName}
-      <Navigation />
+      <Navigation content={content} handleContentChange={handleContentChange}/>
     </header>
   );
 }
