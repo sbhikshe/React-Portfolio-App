@@ -1,9 +1,10 @@
 import React from 'react';
+import './css/Navigation.css';
 
 export default function Navigation({content, handleContentChange}) {
 
   return (
-    <nav>
+    <nav className='navigation'>
         <a href="#about" onClick={() => handleContentChange('About')}>About</a>
         <a href="#portfolio" onClick={() => handleContentChange('Portfolio')}>Portfolio</a>
         <a href="#resume" onClick={() => handleContentChange('Resume')}>Resume</a>

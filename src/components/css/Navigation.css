@@ -1,0 +1,11 @@
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navigation a {
+  color: #F2F5EA;
+  font-size: 120%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
