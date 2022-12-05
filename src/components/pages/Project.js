@@ -1,5 +1,5 @@
 import React from "react";
-import './css/Project.css';
+import '../css/Project.css';
 
 /* Add Github icon from FontAwesomeIcon React component */
 import { library } from '@fortawesome/fontawesome-svg-core'

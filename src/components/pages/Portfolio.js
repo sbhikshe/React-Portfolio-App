@@ -1,4 +1,10 @@
 import React from "react";
+import '../css/Portfolio.css';
+
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 import Project from "./Project";
 import projects from "./projects";
 
@@ -9,15 +15,16 @@ export default function PortFolio() {
     /* for each project, give title, imageUrl, ghLink, appLink as props */
     /* to generate the Project component */
     
-    <div className="portfolio d-flex flex-row">
-      <ul className="list-group">
+    <Container fluid>
+      <Row >
         {projects.map((item) => (
-          <li className="list-group-item" key={item.title}>
+          <Col className="col-6">
             <Project title={item.title} imageUrl={item.imageUrl} ghLink={item.ghLink} appLink={item.appLink} />
-          </li>
+          </Col>
         ))}
-      </ul>
-    </div>
+      </Row>
+
+    </Container>
 
   );
 }
