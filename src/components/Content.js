@@ -28,10 +28,12 @@ export default function Content() {
   const handleContentChange = (newContent) => setContent(newContent);
 
   return (
-    <div>
+    <>
       <Header content={content} handleContentChange={handleContentChange} />
+      <div className="body">
       {renderContent()}
+      </div>
       <Footer />
-    </div>
+    </>
   );
 }
