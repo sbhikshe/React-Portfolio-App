@@ -1,8 +1,9 @@
 import React from "react";
+import '../css/Resume.css';
 
 export default function Resume() {
   return (
-    <div>
+    <div className="resume">
       <div>
         <h3>
           Experience:
@@ -36,11 +37,25 @@ export default function Resume() {
           Education:
         </h3>
         <ul>
+        <li>
+            Full Stack Web Development, 2022, UC Berkeley, CA
+          </li>
           <li>
             MS, Computer Science, 1998 Clemson University, SC
           </li>
           <li>
             BE (Bachelors in Engineering), Computer Science, 1995 Birla Institute of Technology & Science, Pilani, India
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h3>
+          Other:
+        </h3>
+        <ul>
+          <li>
+            Developed a WIX based website for a local music school. The site includes access upon login to a Google Sites portal 
+            for students to organize and access their class records, and for the instructor to provide lessons, as well as a music library.
           </li>
         </ul>
       </div>
