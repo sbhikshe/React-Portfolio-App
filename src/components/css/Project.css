@@ -1,4 +1,7 @@
-.project img {
-  width: 400px;
-  padding: 40px;
+.project  {
+  margin: 30px;
+  padding: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
