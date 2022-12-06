@@ -10,36 +10,22 @@ import MongoDBLogo from './images/MongoDBLogo.png';
 import ExpressLogo from './images/ExpressLogo.png';
 import SequelizeLogo from './images/SequelizeLogo.png';
 import ReactLogo from './images/ReactLogo.png';
-
+import ProfilePic from './images/ProfilePic.png';
+import AgileLogo from './images/Agile.png';
+import MVCLogo from './images/MVC.png';
+import jQueryLogo from './images/jQuery.png';
 
 export default function About() {
   const imgStyles = {
     "width": "200px",
     "padding": "20px"
   }
-  /*
-  const logos = [
-    {HTMLLogo}, 
-    {CSSLogo},
-    {JSLogo},
-    {NodeJSLogo},
-    {ReactLogo}
-  ];
   
-  const [currentIndex, setIndex] = useState[0];
-
-  const handleNext = () => { 
-    if (currentIndex < logos.length -1) {
-      setIndex(currentIndex +1)
-    } else {
-      setIndex(0);
-    }
-  };
-  */
   return (
     <Container fluid>
       <Row>
       <Col className="description col-6">
+        <img src={ProfilePic} alt="ProfilePic" style={imgStyles}/>
         <p>
         A full stack web developer, I love to learn new technologies and create cool and meaningful applications!  
         </p>
@@ -52,19 +38,19 @@ export default function About() {
         </p>
         <p>
         In my spare time, I love to be outdoors with my family, and volunteer for organizations that serve local communities.
-        </p>       
+        </p> 
       </Col>
       <Col className="animation col-6">
         <Container fluid>
           <Row>
           <Col className="col-4">
-          <img src={HTMLCSSJSLogo} alt="React" style={imgStyles}/>
+          <img src={HTMLCSSJSLogo} alt="HTMLCSSJS" style={imgStyles}/>
           </Col>
           <Col className="col-4">
-          <img src={SequelizeLogo} alt="React" style={imgStyles}/>
+          <img src={SequelizeLogo} alt="SQL" style={imgStyles}/>
           </Col>
           <Col className="col-4">
-          <img src={ExpressLogo} alt="React" style={imgStyles}/>
+          <img src={ExpressLogo} alt="Express" style={imgStyles}/>
           </Col>
           </Row>
           <Row>
@@ -72,10 +58,21 @@ export default function About() {
           <img src={ReactLogo} alt="React" style={imgStyles}/>
           </Col>
           <Col className="col-4">
-          <img src={MongoDBLogo} alt="React" style={imgStyles}/>
+          <img src={MongoDBLogo} alt="MongoDB" style={imgStyles}/>
           </Col>
           <Col className="col-4">
-          <img src={NodeJSLogo} alt="React" style={imgStyles}/>
+          <img src={NodeJSLogo} alt="Node" style={imgStyles}/>
+          </Col>
+          </Row>
+          <Row>
+          <Col className="col-4">
+          <img src={AgileLogo} alt="React" style={imgStyles}/>
+          </Col>
+          <Col className="col-4">
+          <img src={MVCLogo} alt="MongoDB" style={imgStyles}/>
+          </Col>
+          <Col className="col-4">
+          <img src={jQueryLogo} alt="Node" style={imgStyles}/>
           </Col>
           </Row>
         </Container>
@@ -84,8 +81,4 @@ export default function About() {
     </Container>
   );
 
-  /*
-      <img src={logos[currentIndex]} alt="React" style={imgStyles}/>
-      <button onClick={handleNext}></button>
-  */
 }
