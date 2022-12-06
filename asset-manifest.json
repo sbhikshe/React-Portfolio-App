@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-app/static/css/main.cbc88192.css",
+    "main.js": "/react-portfolio-app/static/js/main.5c54d6de.js",
+    "static/media/ProfilePic.png": "/react-portfolio-app/static/media/ProfilePic.1eb31aacf5c1d88d1367.png",
+    "static/media/BookRecos.png": "/react-portfolio-app/static/media/BookRecos.37f71a620521233fd91e.png",
+    "static/media/MyFirstPortfolio.png": "/react-portfolio-app/static/media/MyFirstPortfolio.ccb82992f1770f0eb76a.png",
+    "static/media/WishList.png": "/react-portfolio-app/static/media/WishList.1132272cd6f7c5462bbc.png",
+    "static/media/WeatherDashboard.png": "/react-portfolio-app/static/media/WeatherDashboard.3df5c8ab928d01ff5852.png",
+    "static/media/NoteTakerApp.png": "/react-portfolio-app/static/media/NoteTakerApp.5e5d3f6eb9995ba3a66d.png",
+    "static/media/TeamProfileGenerator.png": "/react-portfolio-app/static/media/TeamProfileGenerator.fbbd0b5583e3c9d91100.png",
+    "static/media/JATE.png": "/react-portfolio-app/static/media/JATE.3dda89c1dff8fd288b1e.png",
+    "static/media/Agile.png": "/react-portfolio-app/static/media/Agile.7ac702e43743e7070c79.png",
+    "static/media/WorkDayScheduler.png": "/react-portfolio-app/static/media/WorkDayScheduler.6cd06d37ec4aafef4d01.png",
+    "static/media/ReactLogo.png": "/react-portfolio-app/static/media/ReactLogo.daae3e094212712ac94b.png",
+    "static/media/Resume.pdf": "/react-portfolio-app/static/media/Resume.7f9f933d11ccf3ecdab6.pdf",
+    "index.html": "/react-portfolio-app/index.html",
+    "main.cbc88192.css.map": "/react-portfolio-app/static/css/main.cbc88192.css.map",
+    "main.5c54d6de.js.map": "/react-portfolio-app/static/js/main.5c54d6de.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cbc88192.css",
+    "static/js/main.5c54d6de.js"
+  ]
+}
