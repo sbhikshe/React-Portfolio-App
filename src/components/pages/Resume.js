@@ -1,62 +1,54 @@
 import React from "react";
 import '../css/Resume.css';
+import resumePdf from './docs/Resume.pdf';
 
 export default function Resume() {
+  const frontEndSkills = ['HTML', 'CSS', 'JavaScript', 'jQuery', 'React', 'Handlebars', 'Bootstrap'];
+  const backEndSkills = ['Express.js', 'Node.js', 'mySQL', 'Sequelize', 'MongoDB', 'Mongoose'];
+  const otherSkills = ['Agile', 'MVC Architecture', 'Git', 'Test Driven Development'];
+
   return (
     <div className="resume">
+      <div className="downloadResume">
+        <a href={resumePdf} download="Resume">
+          Download Resume
+        </a>
+      </div>
       <div>
-        <h3>
-          Experience:
-        </h3>
+        <h4>
+          Front End Skills
+        </h4>
         <ul>
-          <li>
-            Mobile Software Engineer (Security) Dec 2006 - March 2010,
-            Motorola Solutions, Sunnyvale, CA
+          {frontEndSkills.map((skill) => (
+            <li>
+            {skill}
           </li>
-          <li>
-            Mobile Software Engineer, Browser, May 2005 - May 2006,
-            Nokia, Inc, Boston, MA
-          </li>
-          <li>
-            User Interface and Embedded Software Development, Nov 2000 - May 2005,
-            Vertu (Nokia), United Kingdom
-          </li>
-          <li>
-            Software Engineer, Mobile Switching Center (GSM), Sep 1998 - Nov 2000,
-            Nokia, Irving, TX
-          </li>
-          <li>
-            Software Engineer, Network Management Software, July 1995 - July 1996,
-            Siemens Communication Software, Bangalore, India.
-          </li>
+          ))}
         </ul>
       </div>
 
       <div>
-        <h3>
-          Education:
-        </h3>
+        <h4>
+          Back End Skills
+        </h4>
         <ul>
-        <li>
-            Full Stack Web Development, 2022, UC Berkeley, CA
+        {backEndSkills.map((skill) => (
+            <li>
+            {skill}
           </li>
-          <li>
-            MS, Computer Science, 1998 Clemson University, SC
-          </li>
-          <li>
-            BE (Bachelors in Engineering), Computer Science, 1995 Birla Institute of Technology & Science, Pilani, India
-          </li>
+          ))}
         </ul>
       </div>
       <div>
-        <h3>
-          Other:
-        </h3>
+        <h4>
+          Software Development Skills:
+        </h4>
         <ul>
-          <li>
-            Developed a WIX based website for a local music school. The site includes access upon login to a Google Sites portal 
-            for students to organize and access their class records, and for the instructor to provide lessons, as well as a music library.
+        {otherSkills.map((skill) => (
+            <li>
+            {skill}
           </li>
+          ))}
         </ul>
       </div>
     </div>
